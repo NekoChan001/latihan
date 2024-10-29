@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Gambar dengan Flexbox</title>
+    <style>
+        .karir {
+             display: flex;
+            flex-wrap: wrap; /* Supaya gambar kelebihan akan turun ke baris berikutnya */
+            gap: 10px; /* Jarak antar gambar */
+            justify-content: flex-start; /* Gambar akan mulai dari kiri */
+            justify-content: center;
+        }
+        .container img {
+            width: auto;
+            height: 150px; /* Sesuaikan tinggi gambar tanpa mengubah proporsi */
+            margin: 5px;
+           
+        }
+        
+        /* Membatasi hanya 4 gambar per baris */
+        .container > * {
+            flex-basis: calc(15% - 10px); /* 25% dari lebar kontainer dikurangi jarak */
+            display: flex;
+            justify-content: center;
+        
+    </style>
+</head>
+<body>
+    <h1>peluang karir</h1>
+    <div class="karir">
+    
+        <img src="pc.png" alt="Gambar 1">
+        <img src="pc.png" alt="Gambar 2">
+        <img src="pc.png" alt="Gambar 3">
+        <img src="pc.png" alt="Gambar 4">
+        <img src="pc.png" alt="Gambar 5">
+        <img src="pc.png" alt="Gambar 6">
+        <img src="pc.png" alt="Gambar 1">
+        <img src="pc.png" alt="Gambar 2">
+        <img src="pc.png" alt="Gambar 3">
+        <img src="pc.png" alt="Gambar 4">
+        <img src="pc.png" alt="Gambar 5">
+        <img src="pc.png" alt="Gambar 6">
+        
+    </div>
+</body>
+</html>

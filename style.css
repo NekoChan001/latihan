@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+.navbar {
+    position: fixed; /* Navbar tetap berada di atas */
+    top: 0;          /* Tetap di bagian atas halaman */
+    width: 100%;     
+    background-color: #8f0fe4; 
+    z-index: 1000;   
+    padding: 10px 0;
+    text-align: center;
+}
+.navbar a {
+    color: white;    /* Warna teks navbar */
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+}
+.career-header {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+}
+
+.header-text {
+    max-width: 50%;
+}
+.header-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.header-text p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+.explore-button {
+    display: inline-block;
+    background-color: #4a4aff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.explore-button i {
+    margin-left: 10px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.skill {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skill i {
+    color: #4a4aff;
+    margin-left: 10px;
+}
+.header-image {
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-image img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.info-section {
+    background-color: #4a4aff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.info-section .info {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+.info-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.info-section p {
+    font-size: 16px;
+    color: #ddd;
+}
+.header2 {
+    font-size: 72px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card {
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.card img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+.card-text {
+    margin-left: 20px;
+    text-align: left;
+}
+.card-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.card-text p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Additional Styles for Tentang Kami */
+.about-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+.about-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-header h1 {
+    font-size: 36px;
+    color: #87CEFA;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about-content img {
+    width: 45%;
+    border-radius: 15px;
+}
+`
+.about-text-content ul {
+    padding-left: 20px;
+}
+.about-footer {
+    margin-top: 20px;
+}
+.about-footer h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.about-footer ul {
+    padding-left: 20px;
+}
+.about-footer li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.team-member {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(216, 22, 22, 0.1);
+    margin: 10px;
+    width: 300px;
+}
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+.team-member .info {
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+}
+
+.team-member .info h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+
+.team-member .info p {
+    font-size: 16px;
+    margin: 0; /* Ubah margin atas menjadi 0 */
+    color: white;
+}
+
+.team-member .info {
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+}
+..team-member .info h2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: #0000FF;
+}
+.header {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+.career-container, .industry-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.career-item, .industry-item {
+    background-color: #0000FF;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.industry-header {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+    
+}
+.industry-item {
+    background-color: #0000FF;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.industry-item i {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.industry-item p {
+    font-size: 14px;
+}
